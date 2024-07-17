@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+
+.main {
+  display: flex;
+}
+.main a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.main i {
+  color: gray;
+  font-size: 40px;
+  position: absolute;
+}
+.main #main1 {
+  margin-top: 150px;
+  margin-right: 40px;
+  /* background-color: white; */
+  text-align: center;
+  color: white;
+}
+.main #main1 h1 {
+  font-size: 60px;
+  color: gray;
+}
+.main #main1 h2 {
+  font-size: 30px;
+  padding: 20px;
+}
+.main #main1 input {
+  padding: 10px;
+}
+.main #main1 p {
+  color: gray;
+  margin-top: 20px;
+}
+.main #main1 button {
+  margin-top: 20px;
+  padding: 10px;
+  color: gray;
+}
+.main #main1 h3 {
+  position: relative;
+  top: 40px;
+  border-top: 1px solid rgb(91, 84, 84);
+  border-bottom: 1px solid rgb(91, 84, 84);
+  border-top-style: dashed;
+  border-bottom-style: dashed;
+  padding: 40px;
+  color: gray;
+  font-weight: 400;
+}
+.main #main1 h4 {
+  position: relative;
+  top: 60px;
+  color: gray;
+  font-weight: 400;
+}/*# sourceMappingURL=login.css.map */

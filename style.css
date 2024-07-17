@@ -1,0 +1,345 @@
+@import url(login.scss);
+@import url(eyes.scss);
+@import url(face.scss);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar label {
+  display: none;
+}
+
+.nav1 label {
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+#check:checked ~ .navbar .nav2 ul {
+  display: block;
+}
+
+@media screen and (max-width: 750px) {
+  .nav2 {
+    display: flex;
+    justify-content: center;
+  }
+  .nav1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav1 h3 {
+    position: relative;
+    left: 2px;
+  }
+  .navbar label {
+    display: block;
+  }
+  .navbar .nav2 ul {
+    flex-direction: column;
+    position: absolute;
+    top: 130px;
+    display: none;
+  }
+  .navbar .nav2 ul li a {
+    padding: 20px;
+  }
+}
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  padding: 10px;
+  color: white;
+}
+.nav3 h4 #i2 {
+  color: red;
+}
+.nav3 ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav1 {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.nav1 input {
+  padding: 10px;
+  padding-right: 400px;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-right: 200px;
+  color: white;
+}
+.nav1 h3 {
+  color: white;
+  position: relative;
+  right: 150px;
+  font-weight: 400;
+}
+.nav1 a {
+  color: white;
+  text-decoration: none;
+}
+.nav1 .icon {
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.nav2 ul {
+  background-color: rgb(29, 26, 26);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  list-style: none;
+  color: white;
+}
+.nav2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav2 ul li a:hover {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+}
+
+.page1 {
+  margin: 40px;
+  margin-bottom: 60px;
+}
+.page1 h2 {
+  text-align: center;
+}
+.page1 h2 span {
+  color: red;
+}
+.page1 .p1 {
+  background-image: url(/img3.png);
+  padding: 60px;
+  color: white;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.page1 .p1 h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.page1 .p1 h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 10px;
+}
+.page1 .p1 a {
+  position: relative;
+  right: 12%;
+  border: none;
+  color: rgb(194, 28, 138);
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page2 {
+  background-image: url(/img3.png);
+  background-size: cover;
+  padding: 60px;
+  padding-bottom: 20px;
+}
+.page2 h2 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+.page2 h2 span {
+  color: red;
+}
+.page2 .p2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.page2 .p2 #p1 {
+  padding: 30px;
+  background-color: white;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.page2 .p2 #p1 img {
+  position: relative;
+  bottom: 30px;
+}
+.page2 .p2 #p1 h3 {
+  position: relative;
+  bottom: 25px;
+  font-weight: 400;
+}
+.page2 .p2 #p1 h5 {
+  position: relative;
+  bottom: 20px;
+  color: gray;
+}
+.page2 .p2 #p1 h4 {
+  color: black;
+  position: relative;
+  bottom: 20px;
+  font-size: 20px;
+}
+.page2 .p2 #p1 a {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  position: relative;
+  bottom: 8px;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+}
+
+.page3 {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.page3 h2 {
+  position: relative;
+  top: 50px;
+}
+.page3 .p3 {
+  margin: 50px;
+}
+.page3 .p3 img {
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+.page4 {
+  text-align: center;
+}
+.page4 .p4 {
+  margin: 50px;
+}
+.page4 .p4 img {
+  border-radius: 20px;
+}
+
+.page5 {
+  text-align: center;
+}
+.page5 .p5 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px;
+  gap: 30px;
+}
+.page5 .p5 img {
+  border-radius: 20px;
+}
+
+.page6 {
+  text-align: center;
+  margin-top: 20px;
+}
+.page6 h4 {
+  margin-top: 10px;
+  font-weight: 400;
+}
+.page6 input {
+  margin-top: 20px;
+  padding: 10px;
+  padding-right: 100px;
+}
+.page6 button {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  padding: 12px;
+  padding-right: 20px;
+  margin-bottom: 80px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+.footer .f1 {
+  background-color: black;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 630px;
+  position: relative;
+  bottom: 100px;
+}
+.footer .f1 img {
+  margin: 15px;
+}
+.footer .icons {
+  color: white;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+}
+.footer ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-size: 25px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.footer .f2 h2 {
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+}
+.footer .f2 #f2 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  padding: 30px;
+}
+.footer .f2 #f2 h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer .f2 #f2 h5 {
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+.footer .f2 #f2 p {
+  color: gray;
+}
+.footer .f2 #f2 h6 {
+  font-weight: bolder;
+  font-size: 18px;
+  color: gray;
+}
+.footer #f3 h3 {
+  color: gray;
+  margin-top: 20px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.nav3 {
+  display: flex;
+  justify-content: space-around;
+  background: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  padding: 10px;
+  color: white;
+}
+.nav3 h4 #i2 {
+  color: red;
+}
+.nav3 ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav1 {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+.nav1 input {
+  padding: 10px;
+  padding-right: 400px;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-right: 200px;
+  color: white;
+}
+.nav1 h3 {
+  color: white;
+  position: relative;
+  right: 150px;
+  font-weight: 400;
+}
+.nav1 a {
+  color: white;
+  text-decoration: none;
+}
+.nav1 .icon {
+  color: white;
+  display: flex;
+  gap: 20px;
+}
+
+.nav2 ul {
+  background-color: rgb(29, 26, 26);
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  list-style: none;
+  color: white;
+}
+.nav2 ul li a {
+  color: white;
+  text-decoration: none;
+}
+.nav2 ul li a:hover {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+}
+
+.e1 {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  background-color: white;
+  /* background-color: antiquewhite; */
+}
+.e1 li {
+  background-color: transparent;
+  margin-left: 40px;
+}
+.e1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.page1 {
+  margin: 0px 150px 0px 150px;
+}
+
+.page2 {
+  background-color: rgb(236, 232, 226);
+}
+.page2 #p1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  /* background-color: black; */
+  padding: 50px;
+}
+.page2 #p1 #e2 {
+  padding: 50px;
+  background-color: rgb(225, 197, 225);
+  padding-bottom: 10px;
+  text-align: center;
+}
+.page2 #p1 #e2 img {
+  position: relative;
+  bottom: 30px;
+}
+.page2 #p1 #e2 h3 {
+  position: relative;
+  bottom: 25px;
+}
+.page2 #p1 #e2 h2 {
+  position: relative;
+  bottom: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.page2 #p1 #e2 i {
+  font-size: 30px;
+  margin-right: 20px;
+  position: relative;
+  bottom: 8px;
+}
+.page2 #p1 #e2 i:hover {
+  color: red;
+}
+.page2 #p1 #e2 button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: relative;
+  bottom: 15px;
+}
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 10px;
+}
+.footer .f1 {
+  background-color: black;
+  width: 150px;
+  border-radius: 50%;
+  margin-left: 630px;
+  position: relative;
+  bottom: 100px;
+}
+.footer .f1 img {
+  margin: 15px;
+}
+.footer .icons {
+  color: white;
+  display: flex;
+  gap: 40px;
+  font-size: 20px;
+  justify-content: center;
+  position: relative;
+  bottom: 70px;
+}
+.footer ul {
+  color: white;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-size: 25px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.footer .f2 h2 {
+  color: white;
+  text-align: left;
+  margin-top: 10px;
+}
+.footer .f2 #f2 {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border-bottom: 1px solid white;
+  padding: 30px;
+}
+.footer .f2 #f2 h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.footer .f2 #f2 h5 {
+  font-weight: bolder;
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+.footer .f2 #f2 p {
+  color: gray;
+}
+.footer .f2 #f2 h6 {
+  font-weight: bolder;
+  font-size: 18px;
+  color: gray;
+}
+.footer #f3 h3 {
+  color: gray;
+  margin-top: 20px;
+}/*# sourceMappingURL=eyes.css.map */
